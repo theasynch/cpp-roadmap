@@ -35,4 +35,25 @@ int main() {
     else{
         std::cout << "Grade: F" << std::endl;
     }
+
+    //Understanding switch-case statements
+    //They are used as alternatives to multiple else if statements
+
+    switch(marks/10){
+        case 10: //If not break is used, it will continue executing the next cases
+        case 9:
+            std::cout << "Grade (from switch): A" << std::endl;
+            break;
+        case 8:
+            std::cout << "Grade (from switch): B" << std::endl;
+            break;
+        case 7:
+            std::cout << "Grade (from switch): C" << std::endl;
+            break;
+        case 6:
+            std::cout << "Grade (from switch): D" << std::endl;
+            break;
+        default:
+            std::cout << "Grade (from switch): F" << std::endl;
+    }
 }
