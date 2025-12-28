@@ -2,7 +2,7 @@
 
 int main() {
     //Logical operators in C++ are the same as in JAVA
-    //&& for AND, || for OR, ! for NOT
+    //&& for AND, || for OR, ! for NOT, == for equality
 
     bool a = true;
     bool b = false;
@@ -28,5 +28,20 @@ int main() {
         std::cout << "The weather is extreme." << std::endl;
     }
 
+    bool sunny = true;
+
+    sunny ? std::cout << "It's a sunny day!" << std::endl : std::cout << "It's not sunny today." << std::endl;
+    //Similar to python, ternary operator doesn't need explicit conditions for bool data type in C++
+    //if sunny:
+    //  print("It's a sunny day!")
+
+    if (sunny || temp>20){ //bool data types also dont need to be checked by equality operator
+        std::cout << "It's a warm sunny day!" << std::endl;
+    }
+    else{
+        std::cout << "It's either not sunny or not warm." << std::endl;
+    }
+
+    return 0;
 
 }
