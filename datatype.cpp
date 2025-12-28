@@ -32,7 +32,12 @@ int main(){
     //Using the typedef alias
     str greeting = "Hello, Typedef!";
     std::cout << greeting << std::endl;
-    return 0;
 
 
+    // Implicit and Explicit type conversion
+    double intNum = 10.14;
+    std::cout << intNum;
+    double intNum = (int) intNum; //Explicit type conversion (casting)
+
+    int x = 10.15 ; //Implicit type conversion (no casting)
 }
