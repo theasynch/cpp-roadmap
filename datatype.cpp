@@ -1,5 +1,11 @@
 #include <iostream>
 
+//Concept of typedef
+//typedef is used to give an alias to a data type eg: int --> integer
+//or std::string --> str
+
+typedef std::string str;
+
 int main(){
     //Understanding different data types
     int num = 22; //Integer data type (Whole numbers)
@@ -21,6 +27,12 @@ int main(){
 
     const int CONSTNUM = 100; //const keyword prevents the variable from being modified throughout the program
     std::cout << "Constant Integer: " << CONSTNUM << std::endl;
+
+
+    //Using the typedef alias
+    str greeting = "Hello, Typedef!";
+    std::cout << greeting << std::endl;
     return 0;
+
 
 }
