@@ -1,7 +1,7 @@
 #include <iostream>
 
 //Some usefule string methods
-//Get more methods at cpluslus.com/reference/string/string/
+//Get more methods at https://cplusplus.com/reference/string/string/
 
 int main() {
     using std::string;
