@@ -5,7 +5,7 @@ int main(){
 
     /*  Example:
     marks = int(input("Enter your marks: "))
-    print("Pass" if marks >= 40 else "Fail") <---- equivalent of ternary operator in python    */
+    result = "Pass" if marks >= 40 else "Fail" <---- equivalent of ternary operator in python    */
 
     /* Syntax of a ternary operator in C++:
     condition ? expression_if_true : expression_if_false; */
