@@ -1,6 +1,10 @@
 #include <iostream>
 #include <cmath> //Include cmath for math functions
 
+/*
+For more functions and references visit: http://cplusplus.com/reference/cmath
+*/
+
 int main(){
     //Some useful math functions in C++ standard library
 
@@ -31,6 +35,8 @@ int main(){
 
     z = std::floor(y); //Rounds y down to the nearest integer
     std::cout << y << " rounded down to nearest integer is: " << z << std::endl;
+
+
 
     return 0;
 }
