@@ -9,6 +9,8 @@ void myfunc(){
 void newfunc();
 void func1(std::string name);
 void voting_chk(int age);
+void display(int num);
+void display(std::string text);
 
 int main(){
     myfunc();
@@ -18,6 +20,8 @@ int main(){
     std::cout << "Enter your age: ";
     std::cin >> age;
     voting_chk(age);
+    display(5);
+    display("Hello World");
     return 0;
 }
 
@@ -35,4 +39,17 @@ void voting_chk(int age){
     } else {
         std::cout << "You are not eligible to vote." << std::endl;
     }
+}
+
+
+//Function Overloading
+//In C++ user defined functions can have the same name as long as their parameter lists are different
+//The function's name + its parameter list is called its signature
+
+void display(int num){
+    std::cout << "Displaying integer: " << num << std::endl;
+}
+
+void display(std::string text){
+    std::cout << "Displaying string: " << text << std::endl;
 }
