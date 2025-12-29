@@ -60,6 +60,18 @@ int main(){
         }
         std::cout << std::endl;
     }
+
+
+    //for-each loop
+    int arr[] = {1, 2, 3, 4, 5};
+    for(int num : arr){
+        std::cout << "Array element: " << num << std::endl;
+    }
+
+    //A for-each loop is used to iterate over elements in a collection (like an array) 
+    //without needing to manage an index variable.
+    //Syntax:
+    //for(data_type variable : collection){SOME_CODE_HERE}
     return 0;
 
 }
